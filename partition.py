@@ -9,7 +9,6 @@ import random
 import numpy as np
 from torch_geometric.loader import DataLoader
 
-# PLEASE USE THE ml-playground-env - no additional packages were installed
 class HyperGraphConverter:
     def __init__(self, directory: str, num_partitions: int, balance_constraint: float):
         self.directory = directory
