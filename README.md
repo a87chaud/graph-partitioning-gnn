@@ -46,7 +46,7 @@ We evaluate on the **IBM circuits (ibm01–ibm18)** from the ISPD benchmark suit
 
 ---
 
-## ✅ Evaluation Against hMETIS
+## Evaluation Against hMETIS
 - hMETIS (`shmetis`) was run on the same set of hypergraphs to obtain the **golden baseline partitions**.  
 - Our GNN-based partitioner was tested by computing:  
   - **Hyperedge Cut** (minimize)  
